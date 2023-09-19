@@ -1,0 +1,82 @@
+body {
+  background-color: #eee;
+}
+
+nav ul li {
+  float: left;
+  padding: 1em;
+  padding-top: 5em;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-right: 2.5em;
+  margin-bottom: 5em;
+}
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#logo {
+  float: left;
+  margin-right: 5em;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+#logo:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+footer {
+  padding: 1em;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#social {
+  clear: both;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.fb {
+  display: inline-flex;
+}
+.fb:hover {
+  color: black;
+}
+.insta {
+  display: inline-flex;
+}
+.insta:hover {
+  color: black;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#map {
+  margin: 0px 5px 5px 80px;
+  text-align: center;
+}
+.contact {
+  clear: both;
+  text-align: center;
+  padding-left: 100px;
+}
+#contact {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 420px;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+#contact2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 420px;
+  width: 400px;
+}
